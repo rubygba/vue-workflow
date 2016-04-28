@@ -1,7 +1,7 @@
 {
   "name": "front-vue",
   "version": "1.0.0",
-  "description": "@author:gba @company:bangshi",
+  "description": "",
   "author": "gba <rubygba@foxmail.com>",
   "private": true,
   "scripts": {
@@ -55,5 +55,5 @@
     "webpack-merge": "^0.8.3"
   },
   "main": ".eslintrc.js",
-  "license": "ISC"
+  "license": "MIT"
 }
