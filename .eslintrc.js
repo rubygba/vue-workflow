@@ -17,11 +17,6 @@ module.exports = {
   "node": true
 },
 
-"plugins": [
-  "standard",
-  "promise"
-],
-
 "globals": {
   "document": false,
   "navigator": false,
@@ -30,7 +25,9 @@ module.exports = {
 
   // required to lint *.vue files
   plugins: [
-    'html'
+    'html',
+    "standard",
+    "promise"
   ],
   // add your custom rules here
   'rules': {

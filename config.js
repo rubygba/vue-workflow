@@ -11,6 +11,8 @@ module.exports = {
   },
   dev: {
     port: 8080,
-    proxyTable: {}
+    proxyTable: {
+        // 转发规则示例 '/public': 'http://121.41.18.128:8080'
+    }
   }
 }
