@@ -3,25 +3,26 @@ module.exports = {
   // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
 
   //extends: 'standard',
-"parserOptions": {
-  "ecmaVersion": 6,
-  "ecmaFeatures": {
-    "experimentalObjectRestSpread": true,
-    "jsx": true
+  
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
   },
-  "sourceType": "module"
-},
 
-"env": {
-  "es6": true,
-  "node": true
-},
+  "env": {
+    "es6": true,
+    "node": true
+  },
 
-"globals": {
-  "document": false,
-  "navigator": false,
-  "window": false
-},
+  "globals": {
+    "document": false,
+    "navigator": false,
+    "window": false
+  },
 
   // required to lint *.vue files
   plugins: [
