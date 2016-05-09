@@ -42,6 +42,8 @@
     "ora": "^0.2.0",
     "sass-loader": "^3.2.0",
     "shelljs": "^0.6.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.0.0",
     "url-loader": "^0.5.7",
     "vue-hot-reload-api": "^1.2.0",
     "vue-html-loader": "^1.0.0",
