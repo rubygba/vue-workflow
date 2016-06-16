@@ -32,7 +32,8 @@ module.exports = merge(baseWebpackConfig, {
     }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
-        warnings: false
+        warnings: false,
+        drop_console: true // 发布时注释掉console.log
       }
     }),
     new webpack.optimize.OccurenceOrderPlugin(),
