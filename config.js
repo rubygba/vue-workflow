@@ -8,7 +8,8 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/', // 本地测试服务器，根目录指向
     buildPath: './', // 打包发布，根目录指向
-    productionSourceMap: false // 打包发布，是否包含sourcemap
+    productionSourceMap: false, // 打包发布，是否包含sourcemap
+    buildMD5: true // 打包发布，是否设置MD5文件名
   },
   dev: {
     port: 8080,
